@@ -1,0 +1,327 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.main{
+    background-image: url(Images/back1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 640px;
+    background-size: max(1200px,100vw);
+    position: relative;
+}
+.main .box{
+    height: 640px;
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+.main .hero{
+    color: white;
+    position: relative;
+    display: flex;
+    height: 394px;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 30px;
+    padding-top: 140px;
+    gap: 2px;
+    text-align: center;
+}
+.main .hero :nth-child(1){
+    font-size: 400%;
+    font-weight: 400;
+    font-family: 'Archivo Black', sans-serif;
+    align-items: center;
+    text-align: center;
+}
+.main .hero :nth-child(2){
+    font-size: 400%;
+    font-weight: 400;
+    font-family: 'Archivo Black', sans-serif;
+    align-items: center;
+    text-align: center;
+}
+.main .hero :nth-child(3){
+    font-size: 115%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.main .hero :nth-child(4){
+    font-size: 110%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.main .hero #email{
+    padding: 13px;
+    text-align: left;
+    background-color: black;
+    padding-right: 35px;
+    opacity: 0.75;
+    color: white;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid white;
+    border-radius: 3px;
+    z-index: 1;
+    font-weight: bold;
+}
+.main .hero .gs{
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 1;
+    padding: 13px;
+    color: white;
+    border: none;
+    background-color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+nav{
+    height: 62px;
+    display: flex;
+    align-items: center;
+    max-width: 75vw;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 2vh;
+    top: 0;
+    position: relative;
+    z-index: 1;
+}
+.separation{
+    height: 2px;
+    background-color: red;
+    border: 1px solid red;
+}
+.basicb{
+    padding: 9px;
+    border: 1px solid white;
+    border-radius: 3px;
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin-right: 12px;
+}
+.redb{
+    padding: 9px;
+    border: 1px solid red;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    margin-right: 6px;
+}
+.trending{
+    padding-left: 150px;
+    padding-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+}
+.trendingb{
+    padding-left: 150px;
+    padding-top: 30px;
+}
+.basicbo{
+    padding: 9px;
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin-right: 12px;
+}
+#dscroll{
+    position: relative;
+}
+.ul{
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 40px;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    list-style-type: none;
+}
+.ul2{
+    display: flex;
+    padding-left: 120px;
+    list-style-type: none;
+}
+.ul3{
+    display: flexbox;
+    padding-left: 145px;
+    list-style-type: none;
+}
+.ul4{
+    display: flex;
+    padding-left: 145px;
+    list-style-type: none;
+}
+.item{
+    padding-left: 40px;
+    border: none;
+    cursor: pointer;
+}
+.item img{
+    border-radius: 10px;
+}
+.item2{
+    height: 350px;
+    width: 190px;
+    border: none;
+    background-color: rgb(14, 14, 63);
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 30px;
+}
+.item3{
+    width: 900px;
+    border: 4px solid black;
+    background-color: rgb(52, 52, 52);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    padding: 5px;
+    cursor: pointer;
+}
+.item4{
+    padding: 30px;
+}
+.item4 h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.item3:hover{
+    background-color: rgb(100, 100, 100);
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.footer1 .gs{
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    z-index: 1;
+    padding: 13px;
+    color: white;
+    border: none;
+    background-color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+.footer1 #email{
+    padding: 13px;
+    text-align: left;
+    background-color: black;
+    padding-right: 35px;
+    opacity: 0.75;
+    color: white;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid white;
+    border-radius: 3px;
+    z-index: 1;
+    font-weight: bold;
+}
+.h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.que1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    padding-left: 150px;
+}
+.footer2{
+    padding-left: 140px;
+}
+.footer3{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 140px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: gray;
+}
+#rscroll img{
+    position: absolute;
+    right: 5px;
+    bottom: 42%;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    background-color: black;
+    z-index: 10;
+}
+#lscroll img{
+    position: absolute;
+    left: 75px;
+    bottom: 42%;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    background-color: black;
+    z-index: 10;
+}
+.outside{
+    position: relative;
+}
+.outside:hover .inside{
+    display: block;
+}
+.inside{
+    display: none;
+    position: absolute;
+}
+.inside a{
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    width: 90%;
+    padding: 10px;
+}
+.inside a:hover{
+    background-color: rgb(0, 136, 255);
+    color: white;
+}
+.footer2{
+    position: relative;
+}
+.footer2:hover .inside{
+    display: block;
+}
+.inside{
+    display: none;
+    position: absolute;
+}
+.inside a{
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    width: 90%;
+    padding: 10px;
+}
+.inside a:hover{
+    background-color: rgb(0, 136, 255);
+    color: white;
+}
